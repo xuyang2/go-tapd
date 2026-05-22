@@ -6,10 +6,11 @@ import (
 	"encoding/json"
 	"errors"
 	"io"
-	"maps"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"golang.org/x/exp/maps"
 
 	"github.com/google/go-querystring/query"
 )
